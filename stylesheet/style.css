@@ -1,0 +1,331 @@
+* {
+    /*Reset's every elements apperance*/
+     background: none repeat scroll 0 0 transparent;
+     border: medium none;
+     border-spacing: 0;
+     color: #26589F;
+     font-family: 'PT Sans Narrow',sans-serif;
+     font-size: 16px;
+     font-weight: normal;
+     line-height: 1.42rem;
+     list-style: none outside none;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+     text-decoration: none;
+     text-indent: 0;
+}
+ button {
+     background-color: none;
+     border: solid 2px #FFFFFF;
+     color: #FFFFFF;
+     font-family: 'Lato', sans-serif;
+     font-size: 1.25vw;
+     margin-right: 3%;
+     margin-top: 6%;
+     padding: 1.5% 4%;
+     transition: all .3s ease-in-out;
+}
+ button:hover {
+     transform: scale(1.1);
+}
+ h1 {
+     color: #FFFFFF;
+     flex-wrap: wrap;
+     font-family: 'Bree Serif', serif;
+     font-size: 3.5vw;
+     flex-direction: column;
+     letter-spacing: .2rem;
+     margin-top: 13%;
+}
+ h2 {
+     color: #FFFFFF;
+     flex-wrap: wrap;
+     flex-direction: column;
+     font-family: 'Lato', sans-serif;
+     font-size: 2vw;
+     margin-top: 4%;
+}
+ p {
+     color: #FFFFFF;
+     font-family: 'Lato', sans-serif;
+     font-size: 1.5vw;
+     margin: auto;
+     margin-top: 4%;
+     text-align: center;
+}
+ .arrows {
+     margin: 15px;
+     width: 30px;
+}
+ .btn-img {
+     margin-right: 10px;
+     width: 15px;
+}
+ .color-blue {
+     background-color: #69D2E7;
+}
+ .color-green {
+     background-color: #A7DBD8;
+}
+ .color-orangered {
+     background-color: #FA6900;
+}
+ .color-tan {
+     background-color: #E0E4CC;
+}
+ .color-orange {
+     background-color: #F38630;
+}
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     float: left;
+     width: 60%;
+}
+ .container-two {
+     background-image: url(../images/corn-dog-update.jpg);
+     background-size: cover;
+     background-repeat: none;
+     background-position: center;
+     display: flex;
+     flex-wrap: wrap;
+     float: right;
+     width: 40%;
+}
+ .content {
+     font-size: 2em;
+     height: 100%;
+     padding-top: 20%;
+     position: absolute;
+     width: 100%;
+}
+ 
+.dots {
+     position: absolute;
+     right: 30px;
+     top: 30px;
+     width: 45px;
+}
+
+ .hero-image {
+     overflow: hidden;
+     width: 100%;
+}
+ .hidden {
+     display: hidden;
+}
+ .icons {
+     align-content: center;
+     margin-top: 25%;
+     transition: all 1s ease-in-out;
+     width: 33%;
+}
+ .icons:hover {
+     transform: scale(1.2);
+}
+ .margin-left {
+     margin-left: 10%;
+}
+ .order-1 {
+     order: 1;
+}
+ .order-2 {
+     order: 2;
+}
+ .order-3 {
+     order: 3;
+}
+ .order-4 {
+     order: 4;
+}
+ .order-5 {
+     order: 5;
+}
+ .order-6 {
+     order: 6;
+}
+ .order-7 {
+     order: 7;
+}
+ .order-8 {
+     order: 8;
+}
+ .order-9 {
+     order: 9;
+}
+ .square {
+     align-items: center;
+     flex-basis: 1;
+     height: 20vw;
+     justify-content: center;
+     margin: auto;
+     margin-right: 0;
+     text-align: center;
+     width: 20vw;
+}
+ .square:hover {
+     opacity: 0.75;
+}
+ .square-double {
+     height: 20vw;
+     margin-bottom: 0;
+     margin-right: 0;
+     width: 40vw;
+}
+ .square-double-tall {
+     background-image: url(../images/corn-dog.gif);
+     background-size: cover;
+     background-repeat: none;
+     background-position: center;
+     display: flex;
+     flex-basis: auto;
+     height: 60vw;
+     justify-content: space-between;
+     margin-bottom: 0;
+     margin-right: 0;
+     width: 40vw;
+}
+ .square-double-tall:hover {
+     background-image: url(../images/corn-dog-ani.gif);
+}
+ @media only screen and (max-width: 900px) {
+     .container {
+         width: 70%;
+    }
+     .container-two {
+         width: 30%;
+    }
+     .square-double-tall {
+         height: 70vw;
+         width: 30vw;
+    }
+     .square {
+         height: 23.33vw;
+         width: 23.33vw;
+    }
+     .square-double {
+         height: 23.33vw;
+         width: 46.66vw;
+    }
+}
+ @media only screen and (max-width: 700px) {
+     p {
+         font-size: 2vw;
+    }
+     .container {
+         width: 50%;
+    }
+     .container-two {
+         width: 50%;
+    }
+     .change-to-double {
+         float: left;
+         height: 25vw;
+         width: 50vw;
+    }
+     .icon-double {
+         align-content: center;
+         margin-top: 15%;
+         width: 17%;
+    }
+     .square-double-tall {
+         height: 125vw;
+         width: 50vw;
+    }
+     .square {
+         height: 25vw;
+         width: 25vw;
+    }
+     .square-double {
+         height: 25vw;
+         width: 50vw;
+    }
+}
+ @media only screen and (max-width: 700px) {
+     button {
+         border: solid 2px #FFFFFF;
+         font-size: 3vw;
+         margin: 6% 2%;
+         padding: 1.5% 4%;
+    }
+     h1 {
+         font-size: 8vw;
+         margin-top: 10vw;
+         text-align: center;
+    }
+     h2 {
+         font-size: 5vw;
+         margin-top: 6%;
+         text-align: center;
+    }
+     p {
+         font-size: 3vw;
+    }
+     .container {
+         width: 100%;
+    }
+     .container-two {
+         width: 0%;
+    }
+     .hide {
+         display: none;
+    }
+     .hidden {
+         background-image: url(../images/corn-dog-small.jpg);
+         background-position: center;
+         background-repeat: none;
+         background-size: cover;
+         display: block;
+         order: 0;
+    }
+     .hidden:hover {
+         background-image: url(../images/corn-dog-smallhov.jpg);
+         display: block;
+    }
+     .icon-double {
+         align-content: center;
+         margin-top: 15%;
+         width: 17%;
+    }
+     .margin-left {
+         margin-left: 0%;
+    }
+     .order-1 {
+         order: 1;
+    }
+     .order-2 {
+         order: 3;
+    }
+     .order-3 {
+         order: 2;
+    }
+     .order-4 {
+         order: 4;
+    }
+     .order-5 {
+         order: 5;
+    }
+     .order-6 {
+         order: 7;
+    }
+     .order-7 {
+         order: 6;
+    }
+     .order-8 {
+         order: 8;
+    }
+     .square {
+         height: 50vw;
+         width: 50vw;
+    }
+     .square-double {
+         height: 50vw;
+         text-align: center;
+         width: 100vw;
+    }
+     .change-to-double {
+         height: 50vw;
+         width: 100vw;
+    }
+}
