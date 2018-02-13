@@ -8,4 +8,4 @@ This is a static composition challenge to mimic a page metro style layout. The g
 
 Below is my reimagining of the original composition. To accomplish this I used flex box with hidden elements to appear when certain media queries were satisfied.
 
-![alt text](https://imgur.com/a/R0WoF "Original Static Comp")
+![alt text](https://i.imgur.com/YyltLhX.jpg "My Static Comp")
